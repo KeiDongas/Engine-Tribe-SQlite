@@ -10,4 +10,5 @@ pyyaml
 sqlalchemy[asyncio]
 greenlet
 asyncmy
+aiosqlite
 redis>4.2.0
