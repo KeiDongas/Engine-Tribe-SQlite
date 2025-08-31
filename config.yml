@@ -24,7 +24,7 @@ database:
   levels_db_path: 'levels.db'
 
 redis:
-  host: 'localhost'  # Redis host
+  host: '0.0.0.0'  # Redis host
   port: 6379  # Redis port
   database: 0  # Redis database
   password: 'P455W0RD'  # Redis password
