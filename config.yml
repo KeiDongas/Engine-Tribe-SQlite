@@ -1,8 +1,8 @@
 enginetribe:
-  host: '127.0.0.1'  # Engine Tribe server host
+  host: '0.0.0.0'  # Engine Tribe server host
   port: 30000  # Default port that SMM_WE uses
   workers: 1  # Number of workers
-  api_root: 'http://127.0.0.1:30000/'  # Used in level links
+  api_root: 'http://0.0.0.0:30000/'  # Used in level links
   api_key: "enginetribe"  # Engine Bot API key
   verify_user_agent: true  # Verify user agent
   rows_perpage: 32  # Levels per page
@@ -35,7 +35,7 @@ storage:
   # onedrive-cf: https://github.com/spencerwooo/onedrive-cf-index
   # onemanager: https://github.com/qkqpttgf/OneManager-php
   # discord: send level attachments to Discord bot
-  url: 'http://127.0.0.1:30000/'  # Storage url with '/'
+  url: 'http://0.0.0.0:30000/'  # Storage url with '/'
   auth_key: ''  # Storage auth key, onedrive-cf and onemanager only
   proxied: true  # Proxy levels via CloudFlare CDN, onedrive-cf only
   attachment_channel_id: 1180001885936177274  # Channel ID to receive level attachments, discord only
