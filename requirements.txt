@@ -1,0 +1,13 @@
+xpinyin
+discord
+uvicorn
+starlette<1.0
+fastapi
+pydantic
+python-multipart
+aiohttp
+pyyaml
+sqlalchemy[asyncio]
+greenlet
+asyncmy
+redis>4.2.0
